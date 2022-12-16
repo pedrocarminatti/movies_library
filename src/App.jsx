@@ -1,9 +1,15 @@
-import './App.css'
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
-    <h2>Movies Library</h2>
+    <div className="App">
+      <Navbar />
+      <h2>Movies Library</h2>
+      <Outlet />
+    </div>
   )
 }
 
-export default App
+export default App;
