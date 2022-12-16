@@ -1,0 +1,22 @@
+* {
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+a {
+    text-decoration: none;
+    color: #A27B5C;
+    transition: .5seg;
+}
+
+a:hover {
+    color: #7A5D46;
+}
+
