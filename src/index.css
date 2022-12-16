@@ -13,7 +13,7 @@ body {
 a {
     text-decoration: none;
     color: #A27B5C;
-    transition: .5seg;
+    transition: .5s;
 }
 
 a:hover {
